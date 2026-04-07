@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Plus, GripVertical, Trash2, Edit2, Save, X, ChevronUp, ChevronDown } from 'lucide-react';
+import { Plus, Trash2, Edit2, Save, X, ChevronUp, ChevronDown } from 'lucide-react';
 import { getSkills, createSkill, updateSkill, deleteSkill, uploadFile, updateSkillOrder } from '@/lib/supabase';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
